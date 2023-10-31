@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="189.0" prefWidth="484.0" type="GridPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="130.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="130.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="114.5457764552269" minWidth="0.0" prefWidth="65.45478522988293" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="130.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="130.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="lbl1" alignment="CENTER" contentDisplay="CENTER" prefHeight="222.0" prefWidth="140.0" text="0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" alignment="CENTER" contentDisplay="CENTER" prefHeight="222.0" prefWidth="140.0" text="0" GridPane.columnIndex="1">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl3" alignment="CENTER" contentDisplay="CENTER" prefHeight="222.0" prefWidth="140.0" text="0" GridPane.columnIndex="3">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl4" alignment="CENTER" contentDisplay="CENTER" prefHeight="222.0" prefWidth="140.0" text="0" GridPane.columnIndex="4">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="222.0" prefWidth="140.0" text=":" GridPane.columnIndex="2">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </children>
+</fx:root>
