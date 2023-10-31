@@ -27,7 +27,7 @@ public class Temoporizador extends GridPane {
 	protected Label lbl4;
 
 	public Temoporizador() {
-		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/temporizador.fxml"));
+		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/widget/fxml/temporizador.fxml"));
 		fxmlLoader.setRoot(this);
 		fxmlLoader.setController(this);
 		fin = new SimpleBooleanProperty(false);
